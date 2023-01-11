@@ -1,1 +1,67 @@
 두 번째 파일 올리기 연습sssddddd
+
+SAMSUNG@DESKTOP-U4636R1 MINGW64 ~
+$ git remote -v
+fatal: not a git repository (or any of the parent directories): .git
+
+SAMSUNG@DESKTOP-U4636R1 MINGW64 ~
+$ git add 230111연습2
+fatal: not a git repository (or any of the parent directories): .git
+
+SAMSUNG@DESKTOP-U4636R1 MINGW64 ~
+$ ㅔㅈㅇ
+bash: ㅔㅈㅇ: command not found
+
+SAMSUNG@DESKTOP-U4636R1 MINGW64 ~
+$ pwd
+/c/Users/SAMSUNG
+
+SAMSUNG@DESKTOP-U4636R1 MINGW64 ~
+$ cd TIL
+
+SAMSUNG@DESKTOP-U4636R1 MINGW64 ~/TIL (master)
+$ pwd
+/c/Users/SAMSUNG/TIL
+
+SAMSUNG@DESKTOP-U4636R1 MINGW64 ~/TIL (master)
+$ git add 230111연습2 
+
+SAMSUNG@DESKTOP-U4636R1 MINGW64 ~/TIL (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   "230111\354\227\260\354\212\2652"
+
+
+SAMSUNG@DESKTOP-U4636R1 MINGW64 ~/TIL (master)
+$ git commit -m "230111연습2" 
+[master c3a334c] 230111연습2
+ 1 file changed, 1 insertion(+)
+
+SAMSUNG@DESKTOP-U4636R1 MINGW64 ~/TIL (master)
+$ git remote -v
+230111  https://github.com/DennyKim111/TIL.git (fetch)
+230111  https://github.com/DennyKim111/TIL.git (push)
+origin  https://github.com/DennyKim111/TIL.git (fetch)
+origin  https://github.com/DennyKim111/TIL.git (push)
+
+SAMSUNG@DESKTOP-U4636R1 MINGW64 ~/TIL (master)
+$ gtr push origin master
+bash: gtr: command not found
+
+SAMSUNG@DESKTOP-U4636R1 MINGW64 ~/TIL (master)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 360 bytes | 360.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/DennyKim111/TIL.git
+   6eb832c..c3a334c  master -> master
+
+SAMSUNG@DESKTOP-U4636R1 MINGW64 ~/TIL (master)
+$
