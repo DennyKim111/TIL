@@ -24,5 +24,9 @@ def order (shot=2, size='Regular', takeout=True):
 order('Regular', takeout=True) 이렇게 하면, 키워드가 설정 안되었기 때문에 Regular가 shot에 해당이 된다. 그래서 오류 뜸.
 
 
+<!-- # 파이썬 - self
+매서드가 여러 객체 내에서 공유되고 있는데, 그 매써드가 호출될 때 어떤 객체로부터 데이터를 가져올 것인지 그 객체를 가리키는 변수가 self이다. -->
+
+
 
 
