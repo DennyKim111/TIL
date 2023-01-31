@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>연습문제 1</title>
+	<style>
+		ul {
+			list-style:none;
+		}
+		li {
+			line-height:50px;
+		}
+		label {
+			width:60px;
+			float:left;
+		}
+	</style>
+</head>
+<body>
+	
+  <!-- /* 05\sol-1.html 소스를 참고하세요. */ -->
+
+	<form action="">
+		<fieldset>
+			<h1>예약 정보</h1>
+			<ul>
+			<li>
+			<label for="name">이 름</label>
+			<input type="text" id="name" required placeholder="영어로 5자 ~ 12자 이내" min="5" max="12">
+			</li>
+			<li>
+			<label for="phone">전 화</label>
+			<input type="tel" id="phone" required placeholder="000-0000-0000 양식으로">
+			</li>
+			<li>
+				<label for="mail">이메일</label>
+				<input type="email" id="mail" required placeholder="되도록 gmail을 적어주세요">
+			</li>
+			<div>
+				<button type="submit">예약하기</button>
+				<!-- <input type="submit" value="예약하기"> 답은 이렇게 나옴 -->
+			</div>
+
+	</ul>
+		</fieldset>
+	</form>
+</body>
+</html>
